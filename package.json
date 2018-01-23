@@ -1,0 +1,28 @@
+{
+  "name": "com.bizswiper.app",
+  "version": "1.0.0",
+  "displayName": "Bizswiper",
+  "cordova": {
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "plugins": {
+      "cordova-plugin-file": {},
+      "cordova-plugin-vibration": {},
+      "cordova-plugin-geolocation": {},
+      "cordova-plugin-camera": {},
+      "cordova-plugin-device": {},
+      "cordova-plugin-splashscreen": {}
+    }
+  },
+  "dependencies": {
+    "cordova-ios": "~4.5.4",
+    "cordova-plugin-camera": "~2.4.1",
+    "cordova-plugin-device": "~1.1.7",
+    "cordova-plugin-file": "~4.3.3",
+    "cordova-plugin-geolocation": "^4.0.1",
+    "cordova-plugin-splashscreen": "^5.0.1",
+    "cordova-plugin-vibration": "~2.1.5"
+  }
+}
